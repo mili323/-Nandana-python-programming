@@ -1,0 +1,9 @@
+Line 2: # === Valid flights from Europe === → comment line, ignored for data parsing
+Line 8: # === Invalid flights for testing === → comment line, ignored for data parsing
+Line 9: BADLINE,NO_DATE,NO_TIME → missing required fields
+Line 10: SK404,OSL,RIX,2025-11-15 14:00,2025-11-15 12:00,120.00 → arrival before departure
+Line 11: AY503,HEL,RIX,2025-11-15 13:20,2025-11-15 14:15,-10.00 → price must be positive
+Line 2: # === Valid flights from Asia and US === → comment line, ignored for data parsing
+Line 8: # === Invalid flights for testing === → comment line, ignored for data parsing
+Line 10: QR1,DOH,SYD,INVALID_DATETIME,2025-11-17 23:30,980.00 → invalid departure datetime
+Line 11: LH999999999,FRA,LAX,2025-11-13 09:30,2025-11-13 18:10,700.00 → flight_id too long (more than 8 characters)

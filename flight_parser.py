@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Flight Schedule Parser
-Parses CSV flight schedules, validates records, exports JSON database and error files,
-and executes queries on the flight data.
-"""
 
 import argparse
 import csv
