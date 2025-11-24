@@ -1,11 +1,11 @@
 flight_id,origin,destination,departure_datetime,arrival_datetime,price
-# === Valid flights from Asia and US ===
+# Valid flights from Asia and US 
 SQ321,SIN,NRT,2025-11-18 09:00,2025-11-18 16:30,450.00
 CX888,HKG,ICN,2025-11-19 11:20,2025-11-19 15:10,320.50
 DL100,ATL,LAX,2025-11-21 06:30,2025-11-21 08:45,299.99
 AA300,JFK,SFO,2025-11-23 09:00,2025-11-23 12:30,425.00
 
-# === Invalid flights for testing ===
+#  Invalid flights for testing
 W61025,XXX,RIX,2025-11-16 11:00,2025-11-16 13:00,80.00
 QR1,DOH,SYD,INVALID_DATETIME,2025-11-17 23:30,980.00
 LH999999999,FRA,LAX,2025-11-13 09:30,2025-11-13 18:10,700.00
