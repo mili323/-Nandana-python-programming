@@ -1,0 +1,23 @@
+[
+  {
+    "origin": "LHR",
+    "destination": "JFK"
+  },
+  {
+    "price": 200.00
+  },
+  {
+    "departure_datetime": "2025-11-15 00:00",
+    "arrival_datetime": "2025-11-20 00:00"
+  },
+  {
+    "flight_id": "SQ321"
+  },
+  {
+    "origin": "FRA"
+  },
+  {
+    "destination": "RIX",
+    "price": 200.00
+  }
+]
